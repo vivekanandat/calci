@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div style="color: rgb(0, 0, 0);margin: 35%; padding: 0.5%;background-color: rgba(253, 202, 0, 0.174);height: 630;">
+            <div style="padding: 2%;background-color: cornsilk; text-align: right;height: 30;border-radius: 10px;">
+                <p id="screen">
+                </p>
+            </div>                
+            <br>
+            <button id="%" onclick="solve_cent()">%</button>
+            <button onclick="allclear()">C</button>
+            <button onclick="eclear()">CE</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="solve_inverse()">1/X</button>
+            <button onclick="solve_square()">^2</button>
+            <button onclick="solve_root()">^1/2</button>
+            <button onclick="symbol('/')">/</button>
+            <button onclick="num(7)">7</button>
+            <button onclick="num(8)">8</button>
+            <button onclick="num(9)">9</button>
+            <button onclick="symbol('*')">*</button>
+            <button onclick="num(4)">4</button>
+            <button onclick="num(5)">5</button>
+            <button onclick="num(6)">6</button>
+            <button onclick="symbol('-')">-</button>
+            <button onclick="num(1)">1</button>
+            <button onclick="num(2)">2</button>
+            <button onclick="num(3)">3</button>
+            <button onclick="symbol('+')">+</button>
+            <button onclick="notdone()">+/-</button>
+            <button onclick="num(0)">0</button>
+            <button onclick="decimal()">.</button>
+            <button onclick="solve_equal()">=</button>
+        </div>
+    </body>
+</html>
